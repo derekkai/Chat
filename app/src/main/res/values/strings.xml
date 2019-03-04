@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lets chat</string>
+
+    <string name="title_activity_chat_splash">Lets chat</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+</resources>

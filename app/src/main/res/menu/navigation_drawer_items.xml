@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navItem1"
+            android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+            android:title="Home"/>
+        <item
+            android:id="@+id/navItem2"
+            android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+            android:title="Blog"/>
+
+        <item
+            android:id="@+id/navItem3"
+            android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+            android:title="About"/>
+
+        <item
+            android:id="@+id/navItem4"
+            android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+            android:title="Contact"/>
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:icon="@drawable/abc_ic_menu_cut_mtrl_alpha"
+                android:title="Sub item 1" />
+            <item
+                android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+                android:title="Sub item 2" />
+        </menu>
+    </item>
+</menu>
